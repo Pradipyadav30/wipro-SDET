@@ -1,0 +1,33 @@
+1. Basic Operations
+Math → + - * / % (used for calculations)
+Comparison → > < == != >= <= (used in conditions)
+Type check → typeof (tells data type)
+2. Strings
+length → number of characters
+toUpperCase() / toLowerCase() → change case
+substring(start,end) → get part of string
+3. Variables Structures
+Object: stores data in key-value → {name: "Alice"}
+Array: stores multiple values → [1,2,3]
+4. Functions
+Normal → function(){}
+Arrow → (x,y) => x+y (short and modern)
+5. Conditions
+if-else → decision making
+switch → multiple choices
+6. Array Usage
+forEach() → loop through array
+map() → create new array (modify values)
+filter() → select specific values
+7. Important Utilities
+Template literals → `Hello ${name}`
+Random → Math.random()
+Round → Math.floor(), Math.ceil()
+Type convert → parseInt()
+8. Common Array Methods
+push() → add at end
+pop() → remove from end
+unshift() → add at start
+shift() → remove from start
+indexOf() → find position
+includes() → check value
