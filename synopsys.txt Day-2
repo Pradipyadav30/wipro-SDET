@@ -29,5 +29,9 @@ push() → add at end
 pop() → remove from end
 unshift() → add at start
 shift() → remove from start
+#DOM Manipulation:
+Login-Form designing
+Navigating to other pages using "window.location.href = "page_name";"
+Manipulating different elements using selectors like id and class
 indexOf() → find position
 includes() → check value
