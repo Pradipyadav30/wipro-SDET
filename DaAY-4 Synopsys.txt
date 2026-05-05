@@ -1,0 +1,27 @@
+1. Asynchronous Operation
+
+A task that does not complete immediately and takes some time before giving a result.
+
+2. Delay Mechanism
+
+The process includes a waiting period before the result is produced, simulating real-world time-consuming operations.
+
+3. Promise Concept
+
+Represents a future outcome — it can either be:
+
+Successful (fulfilled)
+
+Failed (rejected)
+
+4. Success Handling
+
+Once the task completes successfully, the result is received and processed.
+
+5. Error Handling
+
+If something goes wrong during the process, it is caught and handled properly instead of crashing.
+
+6. Continuous vs One-Time Execution
+One-time execution after a delay
+Repeated execution at regular intervals
