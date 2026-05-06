@@ -1,0 +1,24 @@
+{
+  "name": "wipro-playwright-training",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pradipyadav30/wipro-SDET.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Pradipyadav30/wipro-SDET/issues"
+  },
+  "homepage": "https://github.com/Pradipyadav30/wipro-SDET#readme",
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
+}
