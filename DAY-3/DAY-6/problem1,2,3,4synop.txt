@@ -1,0 +1,60 @@
+Question 1 Synopsis – Flight Booking Data Cleaner
+
+1. Created an array of raw flight strings.
+2. Used map() to iterate through each flight string.
+3. Used split(":") to separate route and price.
+4. Used split("-") to separate source and destination cities.
+5. Converted price into Number using Number().
+6. Used isNaN() to check invalid price values and set them to 0.
+7. Created objects with from, to, and price properties.
+8. Used filter() to keep flights with price between 100 and 500.
+9. Used sort() to arrange flights in ascending order of price.
+10. Converted final array into JSON format using JSON.stringify().
+11. Displayed the final output using console.log().
+
+
+Question 2 Synopsis – E-Commerce Discount Applicator
+
+1. Created an array of product objects called cart.
+2. Defined a callback function isEligible() to check discount eligibility.
+3. Checked whether category is "Electronics" and price is greater than 200.
+4. Created the main function applyPromo() with callback support.
+5. Used map() to process each product object.
+6. Applied 10% discount to eligible products.
+7. Added isDiscounted property to all products.
+8. Counted total discounted items using a counter variable.
+9. Calculated total savings amount.
+10. Used Template Literal for displaying promotion summary.
+11. Used setTimeout() with 1000ms delay.
+12. Printed updated cart data using console.log().
+
+
+Question 3 Synopsis – Movie Stream Analytics
+
+1. Created an array of raw movie strings.
+2. Used map() to iterate through movie data.
+3. Used split("|") to separate name, genre, and views.
+4. Converted views into Number using Number().
+5. Used isNaN() to handle invalid view data and set it to 0.
+6. Created movie objects with name, genre, and views.
+7. Used filter() to keep only "Action" and "Sci-Fi" movies.
+8. Checked movies having more than 5000 views.
+9. Used sort() to arrange movies by highest views first.
+10. Converted final output into JSON string using JSON.stringify().
+11. Printed final result using console.log().
+
+
+Question 4 Synopsis – Automated Payroll Processor
+
+1. Created an array of employee objects.
+2. Defined callback function taxLogic() to calculate tax rate.
+3. Applied 20% tax for salary greater than 5000.
+4. Applied 10% tax for salary less than or equal to 5000.
+5. Created calculatePayroll() function using callback.
+6. Used map() to process employee salary details.
+7. Calculated tax amount and net salary.
+8. Added status property as "Premium" or "Standard".
+9. Calculated total net payout amount.
+10. Used Template Literal to display payroll summary.
+11. Used setTimeout() with 2000ms delay.
+12. Displayed processed employee data using console.log().
