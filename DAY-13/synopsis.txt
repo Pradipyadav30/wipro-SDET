@@ -1,0 +1,36 @@
+Day 13: Playwright Automation Training Synopsis
+
+1. Framework Overview
+
+-> Playwright is an advanced automation testing framework used for testing and validating web applications efficiently.
+
+-> JavaScript is used as the primary language for creating and executing automation scripts.
+
+-> Playwright provides an Auto-Wait feature that automatically waits for elements and actions before execution.
+
+2. Core Technical Commands
+
+Initialization Command:
+npm init playwright@latest
+
+Execution Command:
+npx playwright test filename.spec.js
+
+Report Command:
+npx playwright show-report
+
+3. Execution Logic & Standards
+
+-> Async and await keywords are used to handle asynchronous browser operations properly.
+
+-> Playwright supports multiple browsers including Chromium, Firefox, and WebKit.
+
+-> Test cases execute in parallel mode by default to improve speed and efficiency.
+
+4. Debugging & Configuration
+
+-> package.json should contain "type": "module" while using import statements.
+
+-> Assertions like expect(page).toHaveTitle() are used to validate webpage content.
+
+-> The local server must run on the correct localhost port for successful browser interaction and testing.
