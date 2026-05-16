@@ -35,8 +35,8 @@ loginData.forEach(async data => {
     await btn.click();
 
     // await btn.screenshot({ type: 'png', path: 'btn.png'  });
-    // await page.screenshot({ fullPage: true, path: 'full-page.png' })
+     await page.screenshot({ fullPage: true, path: 'full-page.png' })
     
     await expect(msg).toHaveText(data.expected);
   });
-})
+});
