@@ -1,0 +1,46 @@
+Day 15: Playwright Automation Training Synopsis
+
+1. Playwright Advanced Features
+
+-> Learned different Playwright test annotations for controlling test execution.
+
+-> Used test.skip() to skip unnecessary test cases during execution.
+
+-> Used test.fail() to mark expected failed test cases because of known bugs.
+
+-> Used test.fixme() for tests that require future fixes or updates.
+
+-> Used test.slow() to increase timeout duration for slow-loading applications.
+
+-> Used test.step() to divide long test cases into multiple readable steps.
+
+------------------------------------------------
+
+2. Playwright Execution & Debugging Commands
+
+UI Mode Command:
+npx playwright test --ui
+
+-> Opens Playwright graphical interface for test execution and monitoring.
+
+Debug Mode Command:
+npx playwright test --debug
+
+-> Executes tests in debugging mode step-by-step for troubleshooting.
+
+Codegen Command:
+npx playwright codegen https://www.amazon.com
+
+-> Automatically records browser actions and generates Playwright automation scripts.
+
+------------------------------------------------
+
+3. Key Learning Outcomes
+
+-> Improved understanding of Playwright annotations and test management.
+
+-> Practiced UI mode execution and debugging techniques.
+
+-> Learned automatic script generation using Playwright Codegen.
+
+-> Enhanced reporting, debugging, and automation workflow handling.
