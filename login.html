@@ -1,15 +1,42 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <h1>Login</h1>
-    <p>Please enter your username and password to log in.</p>
-    <input id="username" type="text" placeholder="Username" /> <br />
-    <input id="password" type="password" placeholder="Password" /> <br />
-    <button onclick="login()">Login</button>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <h2>Login Form</h2>
+    <form action="http://localhost:3000/login" method="POST">
+        <div>
+            <label>Username:</label>
+            <input type="text" id="username" name="username">
+        </div>
+        <div>
+            <label>Password:</label>
+            <input type="password" id="password" name="password">
+        </div>
+        <button type="submit" id="loginBtn">Login</button>
+    </form>
+    
+    <div id="msg"></div>
+
+    <script>
+        // Simple client-side preview logic to match your backend validation rules
+        document.querySelector('form').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const u = document.getElementById('username').value;
+            const p = document.getElementById('password').value;
+            const msgDiv = document.getElementById('msg');
+
+            if (u.length <= 3 || p.length <= 5) {
+                msgDiv.textContent = "Username length must be greater than 3 & Password 5";
+            } else if (u === "admin123" && p === "admin123") {
+                msgDiv.textContent = "Login successful";
+            } else {
+                msgDiv.textContent = "Invalid credentials";
+            }
+        });
+    </script>
+</body>
 </html>
