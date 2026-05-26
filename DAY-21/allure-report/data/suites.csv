@@ -1,0 +1,7 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","12","profile","firefox","2026-05-26","skipped","2026-05-26","jio mart test","example.spec.js","",""
+"","13216","search for fruits","firefox","2026-05-26","passed","2026-05-26","jio mart test","example.spec.js","",""
+"","14","profile","chromium","2026-05-26","skipped","2026-05-26","jio mart test","example.spec.js","",""
+"","9","profile","webkit","2026-05-26","skipped","2026-05-26","jio mart test","example.spec.js","",""
+"","12026","search for fruits","webkit","2026-05-26","passed","2026-05-26","jio mart test","example.spec.js","",""
+"","20530","search for fruits","chromium","2026-05-26","passed","2026-05-26","jio mart test","example.spec.js","",""
